@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>ASSA ABLOY TIME ZONES</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="mt-1">
+      </div>
+
+      <div class="row">
+        <div class="col-4 storeTime">
+          <h2>Stockholm, Wroc&#322;aw, CET</h2>
+          <p>Ruko, TrioVing, FlexiForce, Vachette, Ditec, Normstahl</p>
+          <span class="time" id="Stockholm_z72a"></span>
+        </div>
+        <div class="col-4 storeTime">
+          <h2>Helsinki, Jyv&auml;skyl&auml;, EET</h2>
+          <p>No stores on this time zone yet.</p>
+          <span class="time" id="Helsinki_z70e"></span>
+        </div>
+        <div class="col-4 storeTime"">
+          <h2>London, GMT</h2>
+          <p>ASSA ABLOY UK</p>
+          <span class="time" id="London_z716"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4 storeTime"">
+          <h2>New Haven, New York</h2>
+          <p>FlashShip, Hospitality, Medeco, Emtek</p>
+          <span class="time" id="New_York_z161"></span>
+        </div>
+        <div class="col-4 storeTime"">
+          <h2>South Asia, Thailand</h2>
+          <p>South Asia</p>
+          <span class="time" id="Thailand_z40a"></span>
+          </div>
+        <div class="col-4 storeTime"">
+          <h2>Australia, Sydney</h2>
+          <p>Australia</p>
+          <span class="time" id="Sydney_z60b"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4 storeTime"">
+          <h2>New Zealand, Wellington</h2>
+          <p>New Zealand</p>
+          <span class="time" id="Wellington_z901"></span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Find the <a href="https://time.is/" id="time_is_link" rel="nofollow">current time for any location or time zone on Time.is!</a></span>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="//widget.time.is/en_gb.js"></script>
+    <script>
+
+    /* GET TIME ZONE CODES FROM HERE: https://time.is/widgets/ */
+
+    time_is_widget.init({
+      UTC_za00 : {time_format: "hours:minutes"},
+      New_York_z161 : {},
+      London_z716 : {},
+      Helsinki_z70e : {},
+      Thailand_z40a : {},
+      Wellington_z901 : {},
+      Stockholm_z72a : {},
+      Sydney_z60b : {}
+      });
+    </script>
+  </body>
+</html>
